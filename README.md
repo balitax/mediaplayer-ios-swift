@@ -15,23 +15,8 @@ Screenshot
 ==========
 **Currently these methods are available**
 
-![Screenshot](http://i.imgur.com/sJ70Crr.png)
-
-----------
 
 ![Screenshot](http://i.imgur.com/WKw6teu.png)
-
-----------
-
-![Screenshot](http://i.imgur.com/xP9Vo48.png)
-
-----------
-
-![Screenshot](http://i.imgur.com/kuy43Bz.png)
-
-----------
-
-![Screenshot](http://i.imgur.com/QhtowQV.png)
 
 ----------
 
