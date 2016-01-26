@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C48D353BDD63A26C298EDD2 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D264035A8DEE0945F3B903 /* BuddyBuildSDK.framework */; };
+		2EE3084D06A0EA0F66C2FB16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CC7303BFE2E234EE26F884 /* SystemConfiguration.framework */; };
+		6CE14DD8049B6B081C083CC1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A431DB4A4556B1373A81F8E1 /* CoreText.framework */; };
+		AEF0612CAE3A0C8D0B734BC9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F085ABBC66A9B73E74CEB4C /* AssetsLibrary.framework */; };
 		B9A686561C16681200BFE8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A686551C16681200BFE8A9 /* AppDelegate.swift */; };
 		B9A686581C16681200BFE8A9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A686571C16681200BFE8A9 /* FirstViewController.swift */; };
 		B9A6865A1C16681200BFE8A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A686591C16681200BFE8A9 /* SecondViewController.swift */; };
@@ -19,6 +23,7 @@
 		B9A6868C1C166AA000BFE8A9 /* PlayVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6868A1C166AA000BFE8A9 /* PlayVideoModel.swift */; };
 		B9A6868F1C166ABC00BFE8A9 /* PlayMP3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6868D1C166ABC00BFE8A9 /* PlayMP3Cell.swift */; };
 		B9A686901C166ABC00BFE8A9 /* PlayVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6868E1C166ABC00BFE8A9 /* PlayVideoCell.swift */; };
+		CF7626027E7E3F322CF5BADC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155D3FFDBB7C03C5805ADEA1 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155D3FFDBB7C03C5805ADEA1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		36D264035A8DEE0945F3B903 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		6C8F46E664332A3A1CBF6E09 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		9F085ABBC66A9B73E74CEB4C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A431DB4A4556B1373A81F8E1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B9A686521C16681200BFE8A9 /* Play Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A686551C16681200BFE8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A686571C16681200BFE8A9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,7 @@
 		B9A6868A1C166AA000BFE8A9 /* PlayVideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoModel.swift; sourceTree = "<group>"; };
 		B9A6868D1C166ABC00BFE8A9 /* PlayMP3Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMP3Cell.swift; sourceTree = "<group>"; };
 		B9A6868E1C166ABC00BFE8A9 /* PlayVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoCell.swift; sourceTree = "<group>"; };
+		C8CC7303BFE2E234EE26F884 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C48D353BDD63A26C298EDD2 /* BuddyBuildSDK.framework in Frameworks */,
+				AEF0612CAE3A0C8D0B734BC9 /* AssetsLibrary.framework in Frameworks */,
+				6CE14DD8049B6B081C083CC1 /* CoreText.framework in Frameworks */,
+				CF7626027E7E3F322CF5BADC /* CoreTelephony.framework in Frameworks */,
+				2EE3084D06A0EA0F66C2FB16 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +107,8 @@
 				B9A6866B1C16681300BFE8A9 /* Play MediaTests */,
 				B9A686761C16681300BFE8A9 /* Play MediaUITests */,
 				B9A686531C16681200BFE8A9 /* Products */,
+				D3B97770A8ECD769D1BE382D /* Frameworks */,
+				6C8F46E664332A3A1CBF6E09 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +188,18 @@
 				B9A6868E1C166ABC00BFE8A9 /* PlayVideoCell.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D3B97770A8ECD769D1BE382D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D264035A8DEE0945F3B903 /* BuddyBuildSDK.framework */,
+				9F085ABBC66A9B73E74CEB4C /* AssetsLibrary.framework */,
+				A431DB4A4556B1373A81F8E1 /* CoreText.framework */,
+				155D3FFDBB7C03C5805ADEA1 /* CoreTelephony.framework */,
+				C8CC7303BFE2E234EE26F884 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,11 +479,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Play Media/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.technopanda.Play-Media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -461,11 +496,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Play Media/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.technopanda.Play-Media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -536,6 +576,7 @@
 				B9A6867E1C16681300BFE8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9A6867F1C16681300BFE8A9 /* Build configuration list for PBXNativeTarget "Play MediaTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +585,7 @@
 				B9A686811C16681300BFE8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9A686821C16681300BFE8A9 /* Build configuration list for PBXNativeTarget "Play MediaUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +594,7 @@
 				B9A686841C16681300BFE8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
